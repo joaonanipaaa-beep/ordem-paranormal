@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora Bioelétrica v2.0 - Ordem Paranormal</title>
+  <title>Calculadora Bioelétrica v2.0 - Caio Careca</title>
   <style>
     * { box-sizing: border-box; }
     body {
