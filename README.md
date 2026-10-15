@@ -114,7 +114,7 @@
   <!-- DANO DE ATAQUE -->
   <div class="res-box">
     <div class="res-title">💥 Potência de Ataque</div>
-    <div class="res-value" id="danoRes">+0d6</div>
+    <div class="res-value" id="danoRes">+0d6 de dano</div>
     <div class="sub-info" id="danoMedio">Dano Médio Estimado: 0</div>
     <div class="warning" id="estAviso">⚠️ Exige reforço igual na Estrutura do Braço para evitar dano recíproco.</div>
   </div>
