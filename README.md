@@ -106,7 +106,7 @@
 
 <div class="card">
   <h1>⚡ CALCULADORA BIOELÉTRICA</h1>
-  <div class="subtitle">Sistema Personalizado • Ordem Paranormal v2.0</div>
+  <div class="subtitle">Sistema Personalizado • Caio Careca v2.0</div>
   
   <label for="peInput">INFORME A QUANTIDADE DE PE (CARGA):</label>
   <input type="number" id="peInput" placeholder="Ex: 14" oninput="calcular()" min="1">
