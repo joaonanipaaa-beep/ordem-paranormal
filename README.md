@@ -153,7 +153,7 @@ function calcular() {
   let pe = parseFloat(document.getElementById('peInput').value);
 
   if (isNaN(pe) || pe <= 0) {
-    document.getElementById('danoRes').innerText = "+0d6 de Energia";
+    document.getElementById('danoRes').innerText = "+0d6 de dano";
     document.getElementById('danoMedio').innerText = "Dano Médio Estimado: 0";
     document.getElementById('estAviso').innerText = "⚠️ Exige reforço igual na Estrutura do Braço para evitar dano recíproco.";
     document.getElementById('defRes').innerText = "RD 0 | Defesa: +0";
@@ -169,7 +169,7 @@ function calcular() {
   // 1. DANO DE ATAQUE: d6 = PE^1.25
   let dados = Math.floor(Math.pow(pe, 1.25));
   let danoMedio = Math.round(dados * 3.5);
-  document.getElementById('danoRes').innerText = `+${dados}d6 de Energia`;
+  document.getElementById('danoRes').innerText = `+${dados}d6 de dano`;
   document.getElementById('danoMedio').innerText = `Dano Médio Estimado: ~${danoMedio} de dano`;
   document.getElementById('estAviso').innerHTML = `⚠️ <b>Estrutura do Braço:</b> Requer <b>${pe} PE</b> dedicados em reforço físico para não sofrer fraturas/dano no próprio corpo.`;
 
